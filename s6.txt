@@ -1,0 +1,4 @@
+scenario_6_fork_child_exit_waitpid
+iters,4000
+mean_ns_total,100424.390
+

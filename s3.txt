@@ -1,0 +1,6 @@
+scenario_3_getppid
+iters,200000
+mean_ns_total,165.311
+mean_ns_overhead,19.682
+mean_ns_subtracted,145.629
+

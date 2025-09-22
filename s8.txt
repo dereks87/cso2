@@ -1,0 +1,6 @@
+scenario_8_mkdir_rmdir
+iters,20000
+mean_ns_total,23911.424
+mean_ns_overhead,18.795
+mean_ns_subtracted,23892.629
+

@@ -1,0 +1,6 @@
+scenario_1_empty_function_call
+iters,200000
+mean_ns_total,37.396
+mean_ns_overhead,20.815
+mean_ns_subtracted,16.581
+

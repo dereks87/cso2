@@ -1,0 +1,4 @@
+scenario_7_system_true
+iters,2500
+mean_ns_total,3251004.943
+

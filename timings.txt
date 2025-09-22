@@ -1,0 +1,45 @@
+Overall timing estimates (ns per operation)
+
+1) empty function call/return
+   Estimate: 16.581 ns
+   Method: mean_ns_subtracted from s1.txt
+   Data: s1.txt
+
+2) drand48()
+   Estimate: 35.708 ns
+   Method: mean_ns_subtracted from s2.txt
+   Data: s2.txt
+
+3) getppid()
+   Estimate: 145.629 ns
+   Method: mean_ns_subtracted from s3.txt
+   Data: s3.txt
+
+4) fork() return in parent (waitpid between; not timed)
+   Estimate: 47559.012 ns
+   Method: mean_ns_subtracted from s4.txt
+   Data: s4.txt
+
+5) waitpid() for already-terminated child
+   Estimate: 17338.556 ns
+   Method: mean_ns_subtracted from s5.txt
+   Data: s5.txt
+
+6) start child that exits + waitpid()
+   Estimate: 100424.390 ns
+   Method: mean_ns_total from s6.txt
+   Data: s6.txt
+
+7) system("/bin/true")
+   Estimate: 3251004.943 ns
+   Method: mean_ns_total from s7.txt
+   Data: s7.txt
+
+8) mkdir + rmdir (/tmp)
+   Estimate: 23892.629 ns
+   Method: mean_ns_subtracted from s8.txt
+   Data: s8.txt
+
+Notes on calculations:
+- Each estimate is taken directly from the program’s output as specified above.
+- Program was compiled with optimizations (-O2 -DNDEBUG).

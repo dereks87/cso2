@@ -1,0 +1,6 @@
+scenario_2_drand48
+iters,200000
+mean_ns_total,56.218
+mean_ns_overhead,20.510
+mean_ns_subtracted,35.708
+

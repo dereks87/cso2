@@ -1,0 +1,6 @@
+scenario_5_waitpid_already_terminated
+iters,2000
+mean_ns_total,17545.345
+mean_ns_overhead,206.789
+mean_ns_subtracted,17338.556
+

@@ -1,0 +1,6 @@
+scenario_4_fork_parent_return
+iters,8000
+mean_ns_total,47578.120
+mean_ns_overhead,19.108
+mean_ns_subtracted,47559.012
+
